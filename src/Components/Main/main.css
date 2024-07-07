@@ -1,0 +1,145 @@
+.main{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: rgba(237, 230, 230, 0.479);
+}
+.main .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-section .meet{
+    color: #a19898;
+    font-size: 20px;
+}
+.porsche-content{
+    text-align: justify;
+    font-size: 15px;
+    color: #a19898;
+}
+.content-section h1{
+    font-weight: bolder;
+}
+.two-button{
+    display: flex;
+    align-items: center;
+}
+.button1 button{
+   padding: 10px 30px;
+   background-color: #000;
+   color: silver;
+   font-weight: bolder;
+   transition: 0.3s ease-in-out;
+   box-shadow: 10px 10px 5px rgb(112, 109, 109);
+}
+.button1 button:hover{
+    transform: translateY(-3px);
+}
+.button2 button{
+    padding: 10px 30px;
+    color: #fff; 
+    background-color: rgb(150, 7, 160);
+    border-color: transparent;
+    margin-left: 20px;font-weight: bolder;
+    transition: 0.3s ease-in-out;
+    box-shadow: 10px 10px 5px rgb(112, 109, 109);
+ }
+ .button2 button:hover{
+    transform: translateY(-3px);
+}
+.main-img img{
+    width: 100%;
+    height: 40vh;
+    filter: drop-shadow(5px 5px 10px rgb(149, 143, 143));
+}
+@media (max-width:560px){
+    .main-img img{
+        padding-top: 30px;
+        height: 30vh;
+    }
+}
+
+/* icon-card hover */
+
+.submain {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.submain .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #7c66662e;
+    background-color: #7c66662e;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.30);
+    position: relative;
+}
+.card i {
+    font-size: 80px;
+    color: rgb(150, 7, 160);
+}
+.card h3 {
+    color: rgb(150, 7, 160);
+}
+.description i {
+    color: #fff;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.description {
+    position: absolute;
+    background-color: rgb(150, 7, 160);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    transition: all .8s;
+    display: none;
+}
+.description button {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: rgb(150, 7, 160);
+    color: #fff;
+    padding: 10px;
+}
+.description button:hover {
+    background-color: #700bf465;
+}
+.card:hover .description {
+    display: block;
+}
+
+
+/* blogpreview css */
+.blogpreview{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgba(237, 230, 230, 0.479);
+}
+.blog-heading h2{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.blog-heading p{
+    color: #a19898;
+    padding-bottom: 40px;
+}
+.blog1{
+    padding-bottom: 80px;
+}
+.blog-content h2{
+    font-weight: bolder;
+}
+.blog-content p{
+    color: #a19898;
+    overflow: hidden;
+}
+.car-img img{
+    width: 100%;
+}

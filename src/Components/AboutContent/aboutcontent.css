@@ -1,0 +1,62 @@
+.aboutContent {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.content1 h4,h3 {
+    color: #000;
+}
+.content1 p {
+    color: #a19898;
+    text-align: justify;
+}
+.buttons1 {
+    border: 1px solid #000;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 20px 40px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    box-shadow: 10px 10px 5px rgb(181, 176, 176);
+}
+.buttons2 {
+    border: 1px solid rgb(150, 7, 160);
+    background-color: rgb(150, 7, 160);
+    border-radius: 5px;
+    padding: 20px 40px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    box-shadow: 10px 10px 5px rgb(181, 176, 176);
+}
+.buttons1:hover , .buttons2:hover {
+    transform: translateY(-3px);
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.aboutContent .carousel-control-prev-icon ,.carousel-control-next-icon {
+    border: 3px solid #fff;
+    padding: 10px;
+}
+#carouselExampleControls{
+    height: max-content;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 50vh;
+}
+@media (max-width:1024px) {
+    .buttons {
+        padding-bottom: 40px;
+    }
+}
+@media (max-width:450px) {
+    .buttons {
+        display: block;
+        padding-bottom: 20px;
+    }
+    .buttons2,.buttons1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

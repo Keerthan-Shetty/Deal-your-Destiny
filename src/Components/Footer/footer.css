@@ -1,0 +1,68 @@
+footer{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    background-color: #a19898;
+    color: #fff;
+}
+.subscribe,.about,.map,.reach{
+    margin: 10px;
+    padding-top: 20px;
+}
+.social-iconbottom p{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #3b4a6b;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: 0.3s ease-in-out;
+}
+.social-iconbottom p i:hover{
+    transform: scale(1.4);
+}
+.reach span{
+    padding-left: 10px;
+}
+.reach p:hover{
+    color: gold;
+}
+.subscribe input{
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff3b;
+    outline: none;
+    padding: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+.subscribe input::placeholder{
+    padding: 5px;
+    color: #fff;
+}
+.subscribe-button button{
+   width: 100%;
+   height: 50px;
+   background-color: rgb(150, 7, 160);
+   color: #fff;
+   transition: 0.3s ease-in-out;
+}
+.subscribe-button button:hover{
+    transform: translateY(-2px);
+}
+.img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.img-gallery img{
+    width: 80px;
+    height: 80px;
+}
+fotter-bottom p{
+    text-align: center;
+}
+
+
+
+

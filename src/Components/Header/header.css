@@ -1,0 +1,74 @@
+header .navbar{
+    align-items: center; 
+ }
+ .navbar-nav .nav-item{
+     padding: 10px;
+     font-size: 20px;
+ }
+ 
+ .navbar-brand img{
+     width: 100%;height: 8vh;
+     padding: 5px;
+ }
+.login-button button{
+    padding: 10px 30px;
+    background-color: rgba(150, 7, 160, 0.664);
+    border-color: rgb(150, 7, 160);
+    color: #fff;
+    border-radius: 30px 30px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+  button.navbar-toggler{
+     width: 30px;
+     height: 30px;
+     border: 0;
+     position: relative;
+     transition: .5s ease-in-out;
+ }
+  button.navbar-toggler:focus, 
+ .navbar-toggler:active, 
+ .navbar-toggler-icon:focus{
+     outline: none;
+     box-shadow: none ;
+     border: 0;
+ } 
+ .toggler-icon{
+     display: block;
+     position: absolute;
+     height: 5px;
+     width: 100%;
+     background-color: #000;
+     border-radius: 6px;
+     opacity: 1;
+     left: 0;
+     transform: rotate(0deg);
+     transition: .25s ease-in-out;
+ }
+ /* .middle-bar{
+     margin-top: 0px;
+ } */
+ .navbar-toggler.collapsed .top-bar{
+     top: 0;
+     transform: rotate(0deg);
+ }
+ .navbar-toggler.collapsed .middle-bar{
+     opacity: 1;
+     top: 10px;
+ }
+ .navbar-toggler.collapsed .bottom-bar{
+     top: 20px;
+     transform: rotate(0deg);
+ } 
+ .navbar-toggler .top-bar{
+     top: inherit;
+     transform: rotate(135deg);
+ }
+ .navbar-toggler .middle-bar{
+     opacity:0;
+     filter: none;
+ }
+ .navbar-toggler .bottom-bar{
+     top: inherit;
+     transform: rotate(-135deg);
+ }

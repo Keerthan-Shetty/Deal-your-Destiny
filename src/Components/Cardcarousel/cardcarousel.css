@@ -1,0 +1,71 @@
+.cardcarousel-slider{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.carousel{
+    height: 70vh;
+}
+.carouselheading h2{
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+.car1 {
+    border: 1px solid #a1989882;
+    border-radius: 5px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.20);
+    overflow: hidden;
+}
+.car1 img{
+    width: 100%;
+    height: 200px;
+}
+.car1 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor:zoom-in; 
+}
+.car1-body button {
+    border: 1px solid rgb(150, 7, 160);
+    background-color: rgb(150, 7, 160);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.car1-body button:hover {
+    background-color: #700bf465;
+}
+.car-specification p {
+    border: 1px solid #a19898;
+    padding: 10px;
+}
+.car-specification {
+    color: #a19898;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width:950px) {
+    .car-specification p {
+        padding: 0;
+    }
+}
+@media (max-width:560px){
+    .car1 {
+        box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.20);
+    }
+    .car-specification p {
+        padding: 10px;
+    }
+}
+.carousel-indicators button[data-bs-target]{
+    list-style-type: circle;
+    background-color: #a19898;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%; 
+    padding:5px; 
+} 
+.carousel-indicators button.active[data-bs-target]{
+    transform: scale(1.3);
+    background-color: rgb(150, 7, 160);
+}
