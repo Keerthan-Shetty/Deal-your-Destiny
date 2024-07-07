@@ -43,7 +43,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -60,7 +60,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -77,7 +77,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -100,7 +100,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -117,7 +117,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -134,7 +134,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -157,7 +157,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -174,7 +174,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -190,8 +190,8 @@ const CardCarousel = () => {
                           <div class="car-specification">
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
-                            <p><i class="fa-solid fa-gear"></i> Imt</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-gear"></i> IMT</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -229,7 +229,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -252,7 +252,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -276,7 +276,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -299,7 +299,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -322,7 +322,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -345,7 +345,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>
@@ -368,7 +368,7 @@ const CardCarousel = () => {
                             <p><i class="fa-solid fa-car"></i> 2023</p>
                             <p><i class="fa-solid fa-gas-pump"></i> Petrol</p>
                             <p><i class="fa-solid fa-gear"></i> Auto</p>
-                            <p> 500hp</p>
+                            <p><i class="fa-solid fa-horse-head"></i> 500hp</p>
                           </div>
                         </div>
                       </div>

@@ -50,6 +50,9 @@
     }
 }
 @media (max-width:560px){
+    div.carousel-indicators{
+        bottom: -66px;
+    }
     .car1 {
         box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.20);
     }
