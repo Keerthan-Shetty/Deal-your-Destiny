@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../App.css'
 import './cardcarousel.css'
 import carouselimg1 from '../../assets/aventador-1488548409.jpg'
@@ -12,6 +12,19 @@ import carouselimg8 from '../../assets/download (49).jpg'
 import carouselimg9 from '../../assets/2023-range-rover-05.jpg'
 
 const CardCarousel = () => {
+  useEffect(() => {
+    // Example of async operation
+    const fetchData = async () => {
+      try {
+        // Simulating an async operation
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+        console.log('Data fetched successfully');
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+    fetchData();
+  }, []);
   return (
     <div>
       <div className='cardcarousel-slider'>
